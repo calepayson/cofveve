@@ -1,0 +1,23 @@
+/* main.css */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  --clr-black: #120802;
+  --clr-dark: #3B1C02;
+  --clr-medium: #7a3f00;
+  --clr-light: #bb6b00;
+  --clr-white: #c8b392;
+}
+
+body {
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+}
+
+
