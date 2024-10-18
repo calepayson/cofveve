@@ -49,4 +49,17 @@ h1, h2, h3, h4, h5, h6 {
 .content-container {
   display: flex;
   flex-direction: column;
+  padding: 0px 8px;
+}
+
+.body-label {
+  margin-top: 16px;
+  padding: 0px;
+}
+
+.coffee-info-container {
+  background-color: var(--clr-dark);
+  margin: 8px auto;
+  padding: 0px 8px;
+  border-radius: 16px;
 }
