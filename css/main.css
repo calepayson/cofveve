@@ -53,6 +53,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-bar-container {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  z-index: 1000;
   display: flex;
   justify-content: center;
   background-color: var(--clr-dark);
@@ -67,6 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   padding: 0px 8px;
+  padding-top: 60px;
 }
 
 .body-label {
@@ -104,6 +109,24 @@ h1, h2, h3, h4, h5, h6 {
   place-self: center end;
   background-color: var(--clr-black);
   color: var(--clr-light);
+  border: none;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  font-size: var(--fs-h1);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  line-height: .95;
+}
+
+.add-coffee-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: var(--clr-medium);
+  color: var(--clr-white);
   border: none;
   height: 44px;
   width: 44px;
