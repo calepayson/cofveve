@@ -1,63 +1,54 @@
 <!DOCTYPE html>
 <html lang='en'>
+<head>
+  <!-- META CONTENT -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Covfefe</title>
 
-  <head>
-    <!-- META CONTENT -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Covfefe</title>
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
 
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
+  <!-- STYLING -->
+  <link rel="stylesheet" href="css/main.css">
 
-    <!-- STYLING -->
-    <link rel="stylesheet" href="css/main.css">
-    
-    <!-- SCRIPTING -->
-  </head>
+  <!-- SCRIPTING -->
+</head>
+<body>
+  <nav class="top-bar">
+    <h1 class="top-bar__title">Covfefe</h1>
+  </nav>
 
-  <body>
-    <nav class="top-bar-container">
-      <h1 class="top-bar-title">Covfefe</h1>
-    </nav>
-
-    <div class="main-content">
-
-      <div class="coffee-container__home">
-        <h2 class="home-label">Current</h2>
-        <div class="coffee-info-container__home">
-          <h1 class="coffee-info__name">Dipsea Espresso</h1>
-          <h3 class="coffee-info__roast">Roast - Medium</h3>
-          <button class="coffee-prep-button">+</button>
-        </div>
-      </div>
-
-      <div class="coffee-container__home">
-
-        <h2 class="body-label">Previous</h2>
-
-        <div class="coffee-info-container__home">
-          <h1 class="coffee-info__name">Tigerwalk</h1>
-          <h3 class="coffee-info__roast">Roast - Medium</h3>
-          <button class="coffee-prep-button">+</button>
-        </div>
-
-        <div class="coffee-info-container__home">
-          <h1 class="coffee-info__name">Midnight Dream</h1>
-          <h3 class="coffee-info__roast">Roast - Medium</h3>
-          <button class="coffee-prep-button">+</button>
-        </div>
-
-        <div class="coffee-info-container__home">
-          <h1 class="coffee-info__name">Dipsea Espresso</h1>
-          <h3 class="coffee-info__roast">Roast - Medium</h3>
-          <button class="coffee-prep-button">+</button>
-        </div>
-
+  <div class="main-content">
+    <div class="container">
+      <h2 class="period-label">Current</h2>
+      <div class="coffee-info">
+        <h1 class="coffee-info__name">Dipsea Espresso</h1>
+        <h3 class="coffee-info__roast">Roast - Medium</h3>
+        <button class="coffee-info__button">+</button>
       </div>
     </div>
 
-    <button class="fab-button">+</button>
-  </body>
+    <div class="container">
+      <h2 class="period-label">Previous</h2>
+      <div class="coffee-info">
+        <h1 class="coffee-info__name">Tigerwalk</h1>
+        <h3 class="coffee-info__roast">Roast - Medium</h3>
+        <button class="coffee-info__button">+</button>
+      </div>
+      <div class="coffee-info">
+        <h1 class="coffee-info__name">Midnight Dream</h1>
+        <h3 class="coffee-info__roast">Roast - Medium</h3>
+        <button class="coffee-info__button">+</button>
+      </div>
+      <div class="coffee-info">
+        <h1 class="coffee-info__name">Dipsea Espresso</h1>
+        <h3 class="coffee-info__roast">Roast - Medium</h3>
+        <button class="coffee-info__button">+</button>
+      </div>
+    </div>
+  </div>
 
+  <button class="fab-button">+</button>
+</body>
 </html>

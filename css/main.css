@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-.top-bar-container {
+.top-bar {
   position: fixed;
   width: 100%;
   height: 60px;
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--clr-dark);
 }
 
-.top-bar-title {
+.top-bar__title {
   font-size: var(--fs-h1);
   font-weight: var(--fw-semi);
 }
@@ -74,14 +74,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 60px;
 }
 
-.home-label {
+.period-label {
   margin-top: 16px;
   padding: 0px;
   font-size: var(--fs-h3);
   font-weight: var(--fw-semi);
 }
 
-.coffee-info-container__home {
+.coffee-info {
   background-color: var(--clr-dark);
   margin: 8px auto;
   padding: 8px 12px;
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   grid-column: 1 / 2;
 }
 
-.coffee-prep-button {
+.coffee-info__button {
   grid-column: 2 / 3;
   grid-row: 1 / 3;
   place-self: center end;
