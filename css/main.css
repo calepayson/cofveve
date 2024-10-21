@@ -74,14 +74,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 60px;
 }
 
-.body-label {
+.home-label {
   margin-top: 16px;
   padding: 0px;
   font-size: var(--fs-h3);
   font-weight: var(--fw-semi);
 }
 
-.coffee-info-container {
+.coffee-info-container__home {
   background-color: var(--clr-dark);
   margin: 8px auto;
   padding: 8px 12px;
@@ -91,13 +91,13 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-rows: auto auto;
 }
 
-.coffee-info-name {
+.coffee-info__name {
   font-size: var(--fs-h2);
   font-weight: var(--fw-bold);
   grid-column: 1 / 2;
 }
 
-.coffee-info-roast {
+.coffee-info__roast {
   font-size: var(--fs-body);
   font-weight: var(--fw-semi);
   grid-column: 1 / 2;
