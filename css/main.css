@@ -82,31 +82,44 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .coffee-info {
+  /* Styling */
   background-color: var(--clr-dark);
   margin: 8px auto;
   padding: 8px 12px;
   border-radius: 16px;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
+
+  /* Layout */
+  &.home {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
 }
 
 .coffee-info__name {
+  /* Styling */
   font-size: var(--fs-h2);
   font-weight: var(--fw-bold);
-  grid-column: 1 / 2;
+
+  /* Layout */
+  &.home {
+    grid-column: 1 / 2;
+  }
 }
 
 .coffee-info__roast {
+  /* Styling */
   font-size: var(--fs-body);
   font-weight: var(--fw-semi);
-  grid-column: 1 / 2;
+
+  /* Layout */
+  &.home {
+    grid-column: 1 / 2;
+  }
 }
 
 .coffee-info__button {
-  grid-column: 2 / 3;
-  grid-row: 1 / 3;
-  place-self: center end;
+  /* Styling */
   background-color: var(--clr-black);
   color: var(--clr-light);
   border: none;
@@ -118,6 +131,13 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-content: center;
   line-height: .95;
+
+  /* Layout */
+  &.home {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    place-self: center end;
+  }
 }
 
 .fab-button {
