@@ -133,6 +133,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .coffee-info__notes {
   /* Styling */
+  font-size: var(--fs-body);
+  font-weight: var(--fw-semi);
 
   /* Layout */
   &.detail {
@@ -142,6 +144,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .coffee-info__preparation {
   /* Styling */
+  font-size: var(--fs-body);
+  font-weight: var(--fw-semi);
 
   /* Layout */
   &.detail {
