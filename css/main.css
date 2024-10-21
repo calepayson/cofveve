@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--fw-semi);
 }
 
-.content-container {
+.main-content {
   display: flex;
   flex-direction: column;
   padding: 0px 8px;
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-rows: auto auto;
 }
 
-.coffee-info-title {
+.coffee-info-name {
   font-size: var(--fs-h2);
   font-weight: var(--fw-bold);
   grid-column: 1 / 2;
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: .95;
 }
 
-.add-coffee-button {
+.fab-button {
   position: fixed;
   bottom: 20px;
   right: 20px;
